@@ -1,0 +1,92 @@
+<!-- 
+- Tags = etiquetas que marcam o conteúdo
+- Estrutura básica
+- Cabeçalho e corpo
+- Títulos e parágrafos
+- Extra: destacando o texto com negrito e itálico 
+
+- Navegadores, por padrão, entedem o arquivo "index", comopágina principal do site
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--definir o idioma do site lang = language-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--a tag meta serve para representar o caractere de qualquer idioma, palavras com acento por exemplo-->
+    <title>Full-stack Eletro</title>
+    <!--título que aparece na barra do navegador-->
+    <link rel="stylesheet" href="./">
+</head>
+
+<body style="background-color: WhiteSmoke;">
+    <!-- ínicio do menu-->
+    <!-- <table style="border-radius: 5px;" width="100%" background-color="WhiteSmoke"> <!--bgcolor = background-color-->
+    <!--    <tr>
+           <!--- <img width="100px" src="./Imagens/logoEletronica2.png" alt="logo">
+            <td align="center" width="25%"><a href="index.html"> <!--como fazer para uma imagem png se adate à cor?-->
+            <!--    <font face="Arial" color="black"> Full-stack Eletro</font> <!--quando usar ;? Nas px ou %?-->
+            <!--</a></td>
+        <td align="center" width="25%"><a href="contato.html">
+                <font face="Arial" color="black">Contato</font>
+            </a></td>
+        <td align="center" width="25%"><a href="lojas.html">
+                <font face="Arial" color="black">Nossas lojas</font>
+            </a></td>
+        <td align="center" width="25%"><a href="produtos.html">
+                <font face="Arial" color="black">Nossos produtos</font>
+            </a></td>
+        </tr>
+    </table> -->
+    <!--fim do menu-->
+
+    <nav>
+        <a href=""></a><img width="100px" src="./Imagens/logoEletronica2.png" alt="logo">
+        <a href="">Contato</a>
+        <a href="">Nossas lojas</a>
+        <a href="">Nossos produtos</a>
+    </nav>
+
+    <h2>
+        <font face="Arial">Seja bem-vinda(o)</font>
+    </h2>
+
+<hr>
+    <!--o "face" define a fonte que será utilizada-->
+    <!--a tag "h" serve para título-->
+    <p><font face="Arial">Aqui na nossa loja, programadores têm desconto nos produtos para sua casa</font></p>
+    <!--a tag <p> faz com que haja a quebra de linha, por mais que eu coloque uma do lado da outra, pois o padrão é a quebra da linha-->
+    <!--a tag b, serve para bold, porém, nas novas atualizações, se usa <strong>-->
+    <!--a tag <i>, serve para itálico, porém, na nova versão se usa <em>-->
+    
+    <!--inclui linha na página-->
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+    <center>
+        <span>
+            <p>
+                <font face="Arial" color="black">Formas de pagamento</font>
+            </p>
+            <img src="./Imagens/formasPagamento.png" alt="Formas de pagamento" width="15%">
+            <!--o alt serve para pessoas com deficiência visual, onde não conseguirão ou terão dificuldades em ler a imagem e por o alt disponibiliza a descrição-->
+        </span>
+    </center>
+    <!--<center>
+        <font face="Arial" size=2>&copy; Full-stack Eletro</font>
+    </center>-->
+
+    <footer id"rodapé">
+        <p>
+            <font face="Arial" color="black">Formas de pagamento</font>
+        </p>
+        <img src="./Imagens/formasPagamento.png" alt="Formas de pagamento" width="15%">
+        <p>&copy; Full-stack Eletro</p>
+    </footer> <!--quando escolher footer e center?-->
+</body>
+
+</html>
+
+<!--a tag nav é utilizada quando precisamos fazer um grupo de ranks (menu). É identificada como semântica pois conseguimos identificar a utilização pelo nome da tag em si-->

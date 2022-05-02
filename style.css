@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+
+#formas_de_pagamento {
+    color: red;
+}
+
+.menu {
+    background-color: blue;
+}
+
+.menu a {
+    color: white;
+    text-decoration:none
+}
+
+.preco {
+    color: red;
+}
+
+#rodapé {
+    text-align:center;
+}
