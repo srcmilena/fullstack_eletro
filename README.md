@@ -1,3 +1,3 @@
 # Full-stack Eletro
 
-Site proposto nos estudos das aulas de HTML e CSS da plataforma de aprendizado do programa Recode Pro.
+Web site proposed in the studies of the HTML and CSS classes of the Recode Pro (bootcamp) learning platform.
